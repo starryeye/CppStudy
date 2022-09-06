@@ -1,4 +1,3 @@
-// F.43: Never(directly or indirectly) return a pointer or a reference to a local object
 // F.44 : Return a T & when copy is undesirable and "returning no object" isn't needed
 
 //--------------------------------
