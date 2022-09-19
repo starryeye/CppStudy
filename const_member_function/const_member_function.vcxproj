@@ -24,6 +24,7 @@
     <ProjectGuid>{0e30325d-04b3-42a3-bcf1-eff645d5894e}</ProjectGuid>
     <RootNamespace>constmemberfunction</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>4_const_member_function</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
