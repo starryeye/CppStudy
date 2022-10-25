@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_temporary", "temporary\temporary.vcxproj", "{7DB3D6F0-8A11-44BA-BA4F-23F1A7DFF690}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_temporary", "temporary\temporary.vcxproj", "{7DB3D6F0-8A11-44BA-BA4F-23F1A7DFF690}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_move", "move\move.vcxproj", "{868A8E10-349C-4FB4-8AE0-9EB7EEF6437A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_move", "move\move.vcxproj", "{868A8E10-349C-4FB4-8AE0-9EB7EEF6437A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_parameter_passing", "parameter_passing\parameter_passing.vcxproj", "{65A3882F-AA33-4273-A3B5-837183233B7B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_parameter_passing", "parameter_passing\parameter_passing.vcxproj", "{65A3882F-AA33-4273-A3B5-837183233B7B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_const_member_function", "const_member_function\const_member_function.vcxproj", "{0E30325D-04B3-42A3-BCF1-EFF645D5894E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_const_member_function", "const_member_function\const_member_function.vcxproj", "{0E30325D-04B3-42A3-BCF1-EFF645D5894E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5_constructor", "constructor\constructor.vcxproj", "{EB68BDBA-DB78-4C75-A5D5-E1D5193AAD65}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_constructor", "constructor\constructor.vcxproj", "{EB68BDBA-DB78-4C75-A5D5-E1D5193AAD65}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_trivial", "trivial\trivial.vcxproj", "{A1957921-C09E-4C1A-B60D-C965CCC95E49}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_trivial", "trivial\trivial.vcxproj", "{A1957921-C09E-4C1A-B60D-C965CCC95E49}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_forwarding_reference", "forwarding_reference\forwarding_reference.vcxproj", "{251D68B5-CC4F-45B9-B691-D022B74A9254}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_forwarding_reference", "forwarding_reference\forwarding_reference.vcxproj", "{251D68B5-CC4F-45B9-B691-D022B74A9254}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8_perfect_forwarding", "perfect_forwarding\perfect_forwarding.vcxproj", "{72DC9E9B-D957-4E4A-8DA9-1649E09C2C1E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_perfect_forwarding", "perfect_forwarding\perfect_forwarding.vcxproj", "{72DC9E9B-D957-4E4A-8DA9-1649E09C2C1E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_nullptr", "nullptr\nullptr.vcxproj", "{92DED3ED-596A-4C0B-91B2-EF72C4119257}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_nullptr", "nullptr\nullptr.vcxproj", "{92DED3ED-596A-4C0B-91B2-EF72C4119257}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_virtual", "virtual\virtual.vcxproj", "{BF2FDF65-6678-4091-A571-32ED8DBE0717}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,14 @@ Global
 		{92DED3ED-596A-4C0B-91B2-EF72C4119257}.Release|x64.Build.0 = Release|x64
 		{92DED3ED-596A-4C0B-91B2-EF72C4119257}.Release|x86.ActiveCfg = Release|Win32
 		{92DED3ED-596A-4C0B-91B2-EF72C4119257}.Release|x86.Build.0 = Release|Win32
+		{BF2FDF65-6678-4091-A571-32ED8DBE0717}.Debug|x64.ActiveCfg = Debug|x64
+		{BF2FDF65-6678-4091-A571-32ED8DBE0717}.Debug|x64.Build.0 = Debug|x64
+		{BF2FDF65-6678-4091-A571-32ED8DBE0717}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF2FDF65-6678-4091-A571-32ED8DBE0717}.Debug|x86.Build.0 = Debug|Win32
+		{BF2FDF65-6678-4091-A571-32ED8DBE0717}.Release|x64.ActiveCfg = Release|x64
+		{BF2FDF65-6678-4091-A571-32ED8DBE0717}.Release|x64.Build.0 = Release|x64
+		{BF2FDF65-6678-4091-A571-32ED8DBE0717}.Release|x86.ActiveCfg = Release|Win32
+		{BF2FDF65-6678-4091-A571-32ED8DBE0717}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

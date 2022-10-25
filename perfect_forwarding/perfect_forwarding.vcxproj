@@ -24,7 +24,7 @@
     <ProjectGuid>{72dc9e9b-d957-4e4a-8da9-1649e09c2c1e}</ProjectGuid>
     <RootNamespace>perfectforwarding</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>8_perfect_forwarding</ProjectName>
+    <ProjectName>08_perfect_forwarding</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
